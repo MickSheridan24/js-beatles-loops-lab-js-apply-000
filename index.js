@@ -8,3 +8,12 @@ var theBeatlesPlay = function (musicians, instruments){
   }
   return out;
 }
+
+var johnLennonFacts = function (fact){
+  let out = [];
+  
+  for (let x = 0; x < fact.length; x++){
+    out[x] = fact[x] + "!!!";
+  }
+  return out;
+}
