@@ -17,3 +17,15 @@ var johnLennonFacts = function (fact){
   }
   return out;
 }
+
+var iLoveTheBeatles = function(num){
+  let out = []
+  do{
+    out.push ("I love the Beatles!");
+    
+    num++
+  }
+  while (num<15);
+  
+  return out;
+}
